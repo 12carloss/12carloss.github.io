@@ -67,8 +67,16 @@
     margin: 20px;
 }
 
+.listas p a {
+    text-decoration: none;
+    color: #000000;
+}
+
 .listas p a:active {
     background: #000000;
+    padding: 10px;
+    border-radius: 20px;
+    color: #fff;
 }
 
 .modelos {
