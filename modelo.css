@@ -132,32 +132,31 @@ aside .indice a {
 }
 
 .listas {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.listas p {
-    margin: auto;
+	display: flex;
+	flex-wrap: wrap;
 	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
-.listas p a {
-    text-decoration: none;
-    color: #000000;
+.listas a {
+	margin-left: 0.3%;
+	margin-right: 0.3%;
+	text-decoration: none;
+	color: #000000;
+	padding: 10px;
 }
 
-.listas p a:active {
+.listas a:active {
     background: #000000;
     padding: 10px;
     border-radius: 20px;
     color: #fff;
 }
 
-.listas p a:hover {
+.listas a:hover {
     background: #dcdcdc;
-    padding: 10px;
     border-radius: 20px;
-    color: rgb(0, 0, 0);
+    color: #000000;
 }
 
 .enlace-activo {
@@ -240,7 +239,7 @@ aside .indice a {
 	}
 
 	.contenedor-imagen {
-		height: 20vh;
+		height: 40vh;
 	}
 
 	main .contenedor {
@@ -255,5 +254,17 @@ aside .indice a {
 
 	.contenido {
 		width: 100%;
+	}
+
+	.indice {
+		display: flex;
+		flex-wrap: wrap;
+		place-content: center;
+	}
+
+	.indice a {
+		margin: auto;
+		margin-left: 2%;
+		margin-right: 2%;
 	}
 }
