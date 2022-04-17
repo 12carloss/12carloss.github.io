@@ -250,6 +250,7 @@ aside .indice a {
 	aside {
 		position: static;
 		width: 100%;
+		margin: auto;
 	}
 
 	.contenido {

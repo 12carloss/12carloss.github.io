@@ -218,5 +218,6 @@ aside .indice a {
 
 	aside {
 		position: static;
+		margin: auto;
 	}
 }
