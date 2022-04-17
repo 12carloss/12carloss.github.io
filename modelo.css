@@ -246,4 +246,13 @@ aside .indice a {
 	main .contenedor {
 		flex-direction: column;
 	}
+
+	aside {
+		position: static;
+		width: 100%;
+	}
+
+	.contenido {
+		width: 100%;
+	}
 }
