@@ -209,7 +209,7 @@ aside .indice a {
 	}
 
 	.contenedor-imagen {
-		height: 50vh;
+		height: 20vh;
 	}
 
 	main .contenedor {
@@ -220,4 +220,5 @@ aside .indice a {
 		position: static;
 		margin: auto;
 	}
+
 }
